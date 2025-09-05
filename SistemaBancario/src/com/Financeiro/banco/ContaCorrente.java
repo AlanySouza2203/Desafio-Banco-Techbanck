@@ -22,7 +22,7 @@ public class ContaCorrente extends ContaBancaria{
 	                    double valorUsandoCheque = valor - getsaldo();
 	                    // Primeiro saca todo o saldo disponível
 	                    super.sacar(getsaldo());
-	                    // Depois usa o cheque especial
+	                    // O uso do  cheque especial
 	                    LimiteChequeEspecial -= valorUsandoCheque;
 	                    System.out.println("Saque de R$" + valor + " realizado com sucesso! (R$" + 
 	                                      (valor - valorUsandoCheque) + " do saldo + R$" + 
@@ -41,4 +41,5 @@ public class ContaCorrente extends ContaBancaria{
 	    public double getLimiteChequeEspecial() {
 	        return LimiteChequeEspecial;
 	    }
+
 	}
