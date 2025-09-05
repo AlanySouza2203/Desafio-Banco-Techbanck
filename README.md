@@ -20,7 +20,7 @@ com.financeiro.banco/
 -Menu interativo: Operações em tempo real ✅
 
 
-Funcionalidades Implementadas
+#Funcionalidades Implementadas
 
 Operações Bancárias:
 
