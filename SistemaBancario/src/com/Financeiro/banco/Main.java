@@ -29,14 +29,14 @@ public class Main {
 
         do {
             System.out.println("\n=========== MENU PRINCIPAL ===========");
-            System.out.println("1️- Depositar em Conta Corrente");
-            System.out.println("2️- Sacar de Conta Corrente");
-            System.out.println("3️- Depositar em Poupança");
-            System.out.println("4️- Sacar de Poupança");
-            System.out.println("5️- Aplicar Rendimento na Poupança");
+            System.out.println("1- Depositar em Conta Corrente");
+            System.out.println("2- Sacar de Conta Corrente");
+            System.out.println("3- Depositar em Poupança");
+            System.out.println("4- Sacar de Poupança");
+            System.out.println("5- Aplicar Rendimento na Poupança");
             System.out.println("6- Ver Saldos");
             System.out.println("7- Ver Informações das Contas");
-            System.out.println("0️- Sair");
+            System.out.println("0- Sair");
             System.out.println("======================================");
             System.out.print("Escolha uma opção: ");
             
@@ -116,4 +116,5 @@ public class Main {
         scanner.close();
         System.out.println("Sistema bancário finalizado com sucesso!");
     }
+
 }
